@@ -19,8 +19,11 @@ The coding is available via GitHub at the following repository: https://github.c
 
 The software used was STATA 18 and was quick when running. The global paths were for a GitHub folder (saved in a non-OneDrive folder) and a OneDrive folder (for data).
 2. Data Availability
-The data is available via the OneDrive folder specified, under DataWork\Documentation
+The data is available via the OneDrive folder specified, under DataWork\Documentation\TZA_CCT Questionnaire.xlsx. 
+
 3. Instructions for Replicators
+When running/editing the individual do. files, take note of the error that appears in processing-data.do under section "Tidy Data: HH" FOR `hh_vars' came up regularly, but usually the command of clear or clear all (from the main) and running again removes the error. 
+
 4. List of Exhibits
 5. Requirements
 6. Code Description
