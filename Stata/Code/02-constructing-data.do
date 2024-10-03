@@ -118,7 +118,7 @@
 
 	
 			//Save data
-	save "${Data}/Final/TZA_amenity_analysis.dta", replace
+	save "${data}/Final/TZA_amenity_analysis.dta", replace
 
 *-------------------------------------------------------------------------------	
 * Data construction: Secondary data

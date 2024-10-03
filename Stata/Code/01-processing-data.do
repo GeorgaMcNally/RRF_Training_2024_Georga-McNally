@@ -49,7 +49,7 @@
 	preserve  
 		
 		* Keep HH vars
-		keep `ids' `hh_vars' */
+		keep `ids' `hh_vars'
 		
 		* Check if data type is string
 		ds, has(type string)
@@ -138,7 +138,7 @@
 		// add variable/value labels
 		// create a template first, then edit the template and change the syntax to 
 		// iecodebook apply
-		iecodebook template 	using "${outputs}/hh_mem_codebook.xlsx"
+		iecodebook template 	using "${outputs}/hh_mem_codebook.xlsx", replace
 								
 		isid hhid member					
 		
@@ -160,7 +160,7 @@
 	reshape wide n, i(adm2_en) j(amenity) string
 	
 	* rename for clarity
-	rename ???
+	rename n* n_*
 	
 	* Fix data types
 	encode adm2_en, gen(district)

@@ -12,3 +12,16 @@ Feel free to update this README as you progress through the sessions and customi
 
 Remember this is what you will share with your peer at the end of the training for review. 
 
+# README Content #
+
+1. Overview
+The coding is available via GitHub at the following repository: https://github.com/GeorgaMcNally/RRF_Training_2024_Georga-McNally under the Stata folder. The main do file runs three stages of coding: processing, constructing and analyzing. 
+
+The software used was STATA 18 and was quick when running. The global paths were for a GitHub folder (saved in a non-OneDrive folder) and a OneDrive folder (for data).
+2. Data Availability
+The data is available via the OneDrive folder specified, under DataWork\Documentation
+3. Instructions for Replicators
+4. List of Exhibits
+5. Requirements
+6. Code Description
+7. Folder Structure

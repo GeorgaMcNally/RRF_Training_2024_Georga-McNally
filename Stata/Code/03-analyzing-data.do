@@ -108,6 +108,12 @@
 
 	* Distribution of non food consumption by female headed hhs with means
 
+	forvalues f = 0/1 {
+		
+		sum nonfood_cons_usd_w if female_head == `f'
+		local mean_`f' = r(mean)
+		
+	}
 	twoway (kdensity nonfood_cons_usd_w if female_head == 0, color(gray)) ///
        (kdensity nonfood_cons_usd_w if female_head == 1, color(red)) , ///
        xline(`mean_1', lcolor(purple) lpattern(dash)) ///
