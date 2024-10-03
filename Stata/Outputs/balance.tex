@@ -1,0 +1,30 @@
+%%% Table created in Stata by command iebaltab
+%%% (https://github.com/worldbank/ietoolkit)
+%%% (https://dimewiki.worldbank.org/iebaltab)
+%%% The command was specified exactly like this: 
+%%% iebaltab nonfood_cons_usd_w food_cons_usd_w area_acre_w read sick days_sick treat_cost_usd, grpvar(treatment) rowvarlabels format(%12.3f) savecsv("C:/Users/wb612454/Downloads/RRF 2024/RRF_Training_2024_Georga-McNally/Stata/Outputs/balance") savetex("C:/Users/wb612454/Downloads/RRF 2024/RRF_Training_2024_Georga-McNally/Stata/Outputs/balance") nonote addnote("Significance: ***=.o1, **=.05, *=.1") replace
+
+\begin{tabular}{@{\extracolsep{5pt}}lcccccc}
+\\[-1.8ex]\hline \hline \\[-1.8ex]
+ & \multicolumn{2}{c}{(1)}  & \multicolumn{2}{c}{(2)}  & \multicolumn{2}{c}{(1)-(2)} \\
+ & \multicolumn{2}{c}{Control}  & \multicolumn{2}{c}{Treatment}  & \multicolumn{2}{c}{Pairwise t-test}  \\
+Variable & N & Mean/(SE) & N & Mean/(SE) & N & Mean difference \\ \hline \\[-1.8ex] 
+Annual non-food consumption value (USD) (Winsorized 0.05)   & 878    & 51.122    & 880    & 42.343    & 1758    & 8.779***   \\
+ &   & (1.914)  &   & (1.688)  &   &  \\ [1ex]
+Annual food consumption value (USD) (Winsorized 0.05)   & 878    & 235.414    & 880    & 220.301    & 1758    & 15.114**   \\
+ &   & (5.644)  &   & (5.219)  &   &  \\ [1ex]
+Area farmed in acres (Winsorized 0.05)   & 807    & 1.774    & 813    & 1.843    & 1620    & -0.069   \\
+ &   & (0.045)  &   & (0.047)  &   &  \\ [1ex]
+Any member can read/write   & 878    & 0.544    & 879    & 0.529    & 1757    & 0.015   \\
+ &   & (0.017)  &   & (0.017)  &   &  \\ [1ex]
+Any member was sick in the last 4 weeks   & 878    & 0.440    & 880    & 0.448    & 1758    & -0.008   \\
+ &   & (0.017)  &   & (0.017)  &   &  \\ [1ex]
+Average sick days   & 386    & 10.995    & 394    & 10.231    & 780    & 0.764   \\
+ &   & (0.446)  &   & (0.399)  &   &  \\ [1ex]
+Total cost of treatment (USD)   & 299    & 1.609    & 318    & 1.599    & 617    & 0.009   \\
+ &   & (0.304)  &   & (0.424)  &   &  \\ [1ex]
+\hline \hline \\[-1.8ex]
+%%% This is the note. If it does not have the correct margins, use texnotewidth() option or change the number before '\textwidth' in line below to fit it to table size.
+\multicolumn{6}{@{} p{\textwidth}}{Significance: ***=.o1, **=.05, *=.1}
+
+\end{tabular}
